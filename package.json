@@ -1,0 +1,26 @@
+{
+    "name": "react-native-code-helper",
+    "displayName": "react-native-code-helper",
+    "description": "code snippets for react native",
+    "publisher": " mevlüt kaan karakoç",
+    "version": "0.0.1",
+    "repository": {
+        "url": "https://www.github.com/kaankarakoc42/react-native-vscode-extension",
+        "type": "git"
+    },
+    "icon": "react-native.png",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
